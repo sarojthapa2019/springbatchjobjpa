@@ -10,7 +10,10 @@ UserName: admin
 Password: admin
 
 ### Service
-Restful Api is
+Restful Api is implemented to activate the batch job. 
+
+### Database
+I have used Hibernate for data persistence. All the csv data are 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTE0MTM5OTE4XX0=
+eyJoaXN0b3J5IjpbMTIyNjQ5MTUwNF19
 -->
