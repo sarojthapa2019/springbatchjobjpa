@@ -16,7 +16,9 @@ Restful Api is implemented to activate the batch job.
 I have used Hibernate for data persistence. All the csv data are persisted into mysql using Hibernate Api. 
 ### CSV file location
 Inside the resources folder.
+springbatchjobjpa\src\main\resources\student-data.csv
 
+### 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0MDUwNzYwMV19
+eyJoaXN0b3J5IjpbODUwODI1MzczXX0=
 -->
