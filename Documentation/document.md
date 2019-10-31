@@ -20,7 +20,8 @@ springbatchjobjpa\src\main\resources\student-data.csv
 
 ### Deployment
 The springboot application and mysql server are migrated to use the docker based containers. 
-I have used **docker-compose** for managing and running dependencies (servers) and link them
+I have used **docker-compose** for managing and running dependencies (servers) and to link them so that we don't have to run them seperately.
+The hosted application can be accessd through [http://localhost:8888/](http://localhost:8087/)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQwODY4NjgyXX0=
+eyJoaXN0b3J5IjpbMTgyOTc5MjY1Ml19
 -->
