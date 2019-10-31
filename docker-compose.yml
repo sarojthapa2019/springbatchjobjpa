@@ -1,0 +1,23 @@
+version: "3"
+services:
+  db:
+    environment:
+      - MYSQL_ROOT_PASSWORD=password
+      - MYSQL_DATABASE=springbatchjob_db
+      - MYSQL_USER=batchjob_sys
+      - MYSQL_PASSWORD=12345
+    image: mysql
+    ports:
+      - 3306:3306
+  web:
+    depends_on:
+      - db
+    environment:
+      - DATABASE_HOST=db
+      - DATABASE_USER=batchjob_sys
+      - DATABASE_PASSWORD=12345
+      - DATABASE_NAME=springbatchjob_db
+      - DATABASE_PORT=3306
+    image: batchjob
+    ports:
+      - 8888:8888
