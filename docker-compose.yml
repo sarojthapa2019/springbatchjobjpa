@@ -1,6 +1,6 @@
 version: "3"
 services:
-  db:
+  mysql-standalone:
     environment:
       - MYSQL_ROOT_PASSWORD=password
       - MYSQL_DATABASE=springbatchjob_db
@@ -11,13 +11,10 @@ services:
       - 3306:3306
   web:
     depends_on:
-      - db
-    environment:
-      - DATABASE_HOST=db
-      - DATABASE_USER=batchjob_sys
-      - DATABASE_PASSWORD=12345
-      - DATABASE_NAME=springbatchjob_db
-      - DATABASE_PORT=3306
+      - mysql-standalone
+    build:
+      context: ./
+      dockerfile: Dockerfile
     image: batchjob
     ports:
       - 8888:8888
