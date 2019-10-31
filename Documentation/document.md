@@ -18,7 +18,8 @@ I have used Hibernate for data persistence. All the csv data are persisted into 
 Inside the resources folder.
 springbatchjobjpa\src\main\resources\student-data.csv
 
-### 
+### Deployment
+The springboot application and mysql 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODUwODI1MzczXX0=
+eyJoaXN0b3J5IjpbMTM4NjYyODAzN119
 -->
