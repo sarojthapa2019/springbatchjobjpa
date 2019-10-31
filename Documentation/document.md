@@ -4,7 +4,13 @@ The batch job can only be processed by the Admin. First of all, the admin needs 
 All those saved data are then retrieved and displayed into the admin page. 
 During startup the student table is dropped and new table is set up. 
 ### Security
-Spring Security is implemented. Only the user with Admin previledge is authorizes to view the page. 
+Spring Security is implemented. Only the user with Admin previledge is authorized to view the page. The page can only be accessed after successful login.
+User Credentials:
+UserName: admin
+Password: admin
+
+### Service
+Restful Api is
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjMyMzI1NDcxXX0=
+eyJoaXN0b3J5IjpbNTE0MTM5OTE4XX0=
 -->
