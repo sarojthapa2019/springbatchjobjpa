@@ -13,7 +13,10 @@ Password: admin
 Restful Api is implemented to activate the batch job. 
 
 ### Database
-I have used Hibernate for data persistence. All the csv data are 
+I have used Hibernate for data persistence. All the csv data are persisted into mysql using Hibernate Api. 
+### CSV file location
+Inside the resources folder.
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTIyNjQ5MTUwNF19
+eyJoaXN0b3J5IjpbLTE0MDUwNzYwMV19
 -->
