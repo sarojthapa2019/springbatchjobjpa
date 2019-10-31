@@ -19,7 +19,8 @@ Inside the resources folder.
 springbatchjobjpa\src\main\resources\student-data.csv
 
 ### Deployment
-The springboot application and mysql 
+The springboot application and mysql server are migrated to use the docker based containers. 
+I have used **docker-compose** for managing and running dependencies (servers) and link them
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTM4NjYyODAzN119
+eyJoaXN0b3J5IjpbLTQwODY4NjgyXX0=
 -->
