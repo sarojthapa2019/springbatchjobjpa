@@ -26,12 +26,12 @@ I have used **docker-compose** for managing and running dependencies (servers) a
 **Pull the Repository from the github : 
 [https://github.com/sarojthapa2019/springbatchjobjpa](https://github.com/sarojthapa2019/springbatchjobjpa)
 into your machine.**
-
+Note: Your machine should have mysql and jdk pre installed.
 **Go to directory springbatchjobjpa **
 **Run Command: $ docker-compose up**
 **After that command it will load both spring app and mysql server**
 
 **The hosted application can be accessd through http://localhost:8888/**
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwMTM1NzMzNjddfQ==
+eyJoaXN0b3J5IjpbLTMyNjEyNDAzMSwtMjAxMzU3MzM2N119
 -->
