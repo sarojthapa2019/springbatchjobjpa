@@ -22,9 +22,12 @@ springbatchjobjpa\src\main\resources\student-data.csv
 The springboot application and mysql server are migrated to use the docker based containers. 
 I have used **docker-compose** for managing and running dependencies (servers) and to link them so that we don't have to run them seperately.
 
+## How To Run?
+Pull the Repository from the github : 
+[https://github.com/sarojthapa2019/springbatchjobjpa](https://github.com/sarojthapa2019/springbatchjobjpa)
 
 
 The hosted application can be accessd through http://localhost:8888/
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzA4MjIwNDk0XX0=
+eyJoaXN0b3J5IjpbLTc1MDA5MTYzNl19
 -->
