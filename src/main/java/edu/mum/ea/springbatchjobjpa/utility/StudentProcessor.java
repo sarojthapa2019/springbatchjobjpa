@@ -15,7 +15,7 @@ public class StudentProcessor implements ItemProcessor<Student, Student> {
     public Student process(Student student) throws Exception {
         final String firstName = student.getFirstName();
         final String lastName = student.getLastName();
-        final String cgpa = student.getCgpa();
+        final Double cgpa = student.getCgpa();
          Integer birthDate = Integer.parseInt(student.getBirthDate());
         LocalDate localDate = LocalDate.of(2019-birthDate,1,1);
         DateTimeFormatter formatter = DateTimeFormatter.ofPattern("dd/MM/yyyy");

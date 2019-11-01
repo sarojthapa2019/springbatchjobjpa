@@ -6,7 +6,9 @@
 </head>
 <body>
 <div sec:authorize="hasRole('ROLE_ADMIN')">
+    <div style="float: right"  ><a th:href="@{/logout}">Logout</a></div>
     <h1>Welcome Admin!</h1>
+
     <h2>Student List</h2>
     <a th:href="@{/process}">Start Batch Job</a>
     <div>

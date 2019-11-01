@@ -17,11 +17,11 @@ public class Student {
 
     private String firstName;
     private String lastName;
-    private String cgpa;
+    private Double cgpa;
     private String birthDate;
 
     public Student(){}
-    public Student(String firstName, String lastName, String cgpa, String birthDate){
+    public Student(String firstName, String lastName, Double cgpa, String birthDate){
         this.firstName = firstName;
         this.lastName = lastName;
         this.cgpa = cgpa;
