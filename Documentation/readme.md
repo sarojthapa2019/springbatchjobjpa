@@ -26,11 +26,13 @@ I have used **docker-compose** for managing and running dependencies (servers) a
 **Pull the Repository from the github : 
 [https://github.com/sarojthapa2019/springbatchjobjpa](https://github.com/sarojthapa2019/springbatchjobjpa)
 into your machine.**
-**change directory with cd springbatchjobjpa **
-**
+**Before running, your machine sho
+**Go to directory springbatchjobjpa **
+**Run Command: $ docker-compose up**
+
 
 
 The hosted application can be accessd through http://localhost:8888/
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTE5NDAxOTM1N119
+eyJoaXN0b3J5IjpbLTM0MjEyNTgxOV19
 -->
