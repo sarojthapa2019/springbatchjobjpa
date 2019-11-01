@@ -28,10 +28,13 @@ I have used **docker-compose** for managing and running dependencies (servers) a
 into your machine.**
 Note: Your machine should have mysql and jdk pre installed.
 **Go to directory springbatchjobjpa **
+**Build the jar with the following command
+mvn package **
 **Run Command: $ docker-compose up**
 **After that command it will load both spring app and mysql server**
 
 **The hosted application can be accessd through http://localhost:8888/**
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTMyNjEyNDAzMSwtMjAxMzU3MzM2N119
+eyJoaXN0b3J5IjpbMTE0NDEyODA0NywtMzI2MTI0MDMxLC0yMD
+EzNTczMzY3XX0=
 -->
